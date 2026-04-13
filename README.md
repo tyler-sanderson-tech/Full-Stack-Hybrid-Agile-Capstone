@@ -1,80 +1,83 @@
-# DevBlog
+# DevBlog: Full-Stack Hybrid-Agile Capstone
 
-DevBlog is a modern blogging platform built with Vite, React, TailwindCSS, and Strapi, designed to provide a seamless experience for both developers and readers.
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Strapi](https://img.shields.io/badge/Strapi-2E7EEA?style=for-the-badge&logo=strapi&logoColor=white)
+![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-## Project Structure
+## 📋 Project Overview
+**DevBlog** is a flagship portfolio project developed over a rigorous 14-week timeline. This modern blogging platform was built using a **Hybrid-Agile framework**, balancing structured planning with iterative development to ensure a high-quality, scalable product. 
 
-This project consists of two main parts:
+The application features a decoupled architecture with a high-performance React front-end and a robust Strapi back-end, seamlessly integrated via GraphQL. It was built with a focus on responsiveness, security, and professional deployment standards.
 
-1. `devblog`: The frontend application built with Vite, React, and TailwindCSS
-2. `devblog-cms`: The backend CMS powered by Strapi
+## 🎥 Project Demos
+See the application in action:
+* [**Full Stack Integration Demo**](https://youtu.be/szyq4l1fwig) - Comprehensive walkthrough of the React front-end interacting with the Strapi CMS.
+* [**Responsive Design Demo**](https://youtu.be/6KD34YFLGy8) - Showcasing the fluid UI/UX across mobile, tablet, and desktop breakpoints.
 
-## Technologies Used
+## 🛠 Tech Stack
+### Frontend
+* **Vite & React:** Next-generation tooling for a lightning-fast development experience.
+* **TailwindCSS:** For a modern, utility-first approach to responsive styling.
+* **Apollo Client:** Efficiently managing GraphQL state and queries.
 
-- **Frontend:**
-  - Vite: Next Generation Frontend Tooling
-  - React: A JavaScript library for building user interfaces
-  - TailwindCSS: A utility-first CSS framework
-  - Apollo Client: For GraphQL queries
+### Backend
+* **Strapi (Headless CMS):** Centralized content management with custom schemas.
+* **GraphQL:** Optimized API query language to prevent over-fetching of data.
 
-- **Backend:**
-  - Strapi: Headless CMS
-  - GraphQL: Query language for APIs
+## 🏗 Quality Assurance & Process
+This project was validated through a rigorous testing lifecycle to ensure production readiness:
+* **Methodology:** Developed using Hybrid-Agile, utilizing Sprints for feature implementation while maintaining a clear project roadmap.
+* **Testing:** Validated via **Integration Testing**, **End-to-End (E2E)** workflows, and **User Acceptance Testing (UAT)** to meet stakeholder requirements.
+* **Optimization:** Focused on SEO best practices, secure API communication, and optimized asset loading.
 
-## Getting Started
+## 📂 Project Structure
+```
+.
+├── devblog/        # Frontend application (Vite + React + Tailwind)
+└── devblog-cms/    # Backend application (Strapi Headless CMS)
+```
+
+## 🚀 Getting Started
 
 ### Prerequisites
-
-- Node.js (version specified in `devblog-cms/package.json`)
-- npm or yarn
+* **Node.js:** Refer to `devblog-cms/package.json` for the specific version.
+* **npm** or **yarn**
 
 ### Installation
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/tyler-sanderson-tech/Full-Stack-Hybrid-Agile-Capstone.git](https://github.com/tyler-sanderson-tech/Full-Stack-Hybrid-Agile-Capstone.git)
+    cd Full-Stack-Hybrid-Agile-Capstone
+    ```
 
-1. Clone the repository:
-   ```
-   git clone https://github.com/sweettigertea/VRTS-dev-blog.git
-   cd devblog
-   ```
+2.  **Setup Frontend:**
+    ```bash
+    cd devblog
+    npm install
+    ```
 
-2. Install dependencies for the frontend:
-   ```
-   cd devblog
-   npm install
-   ```
-
-3. Install dependencies for the CMS:
-   ```
-   cd ../devblog-cms
-   npm install
-   ```
+3.  **Setup CMS:**
+    ```bash
+    cd ../devblog-cms
+    npm install
+    ```
 
 ### Running the Application
+1.  **Start the Strapi CMS:**
+    ```bash
+    cd devblog-cms
+    npm run develop
+    ```
+2.  **Start the Frontend (in a new terminal):**
+    ```bash
+    cd devblog
+    npm run dev
+    ```
+3.  **Access the App:** Navigate to `http://localhost:5173`
 
-1. Start the Strapi CMS:
-   ```
-   cd devblog-cms
-   npm run develop
-   ```
+## 🤝 Contributing
+Contributions are welcome! If you have suggestions for improvements, please feel free to submit a Pull Request.
 
-2. In a new terminal, start the Vite development server for the frontend:
-   ```
-   cd devblog
-   npm run dev
-   ```
-
-3. Open your browser and navigate to `http://localhost:5173` to view the application.
-
-## Features
-
-- Modern, responsive design with TailwindCSS
-- Fast development and build times with Vite
-- GraphQL API powered by Strapi
-- React-based frontend for optimal performance
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
+## ⚖️ License
 This project is licensed under the [MIT License](https://mit-license.org/).
